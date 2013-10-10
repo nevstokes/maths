@@ -1,0 +1,16 @@
+{
+	"name": "nevstokes/maths",
+	"keywords": ["math", "trig"],
+	"authors": [
+		{
+			"name": "Nev Stokes",
+			"email": "mail@nevstokes.com",
+			"homepage": "http://nevstokes.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+		"ext-bcmath": "*"
+	}
+}
