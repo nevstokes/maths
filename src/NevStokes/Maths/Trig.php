@@ -9,7 +9,7 @@
 namespace NevStokes\Maths;
 
 /**
- * Squaring, secant, cosecant and cotangent functions
+ * Trigonometric squaring, secant, cosecant and cotangent functions.
  */
 class Trig
 {
@@ -21,7 +21,7 @@ class Trig
 	 */
 	public static function sinSquared($x)
 	{
-		return Utility::square(sin($x));
+		return MathsFuncs::square(sin($x));
 	}
 
 	/**
@@ -32,7 +32,7 @@ class Trig
 	 */
 	public static function cosSquared($x)
 	{
-		return Utility::square(cos($x));
+		return MathsFuncs::square(cos($x));
 	}
 
 	/**
@@ -43,7 +43,7 @@ class Trig
 	 */
 	public static function tanSquared($x)
 	{
-		return Utility::square(tan($x));
+		return MathsFuncs::square(tan($x));
 	}
 
 	/**
@@ -54,7 +54,7 @@ class Trig
 	 */
 	public static function sec($x)
 	{
-		return Utility::reciprocal(cos($x));
+		return MathsFuncs::reciprocal(cos($x));
 	}
 
 	/**
@@ -65,7 +65,7 @@ class Trig
 	 */
 	public static function cosec($x)
 	{
-		return Utility::reciprocal(sin($x));
+		return MathsFuncs::reciprocal(sin($x));
 	}
 
 	/**
@@ -76,6 +76,6 @@ class Trig
 	 */
 	public static function cot($x)
 	{
-		return Utility::reciprocal(tan($x));
+		return MathsFuncs::reciprocal(tan($x));
 	}
 }
